@@ -1,0 +1,45 @@
+// Externals
+
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+// Basics
+@import "basics/typography";
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/modals";
+@import "basics/animations";
+
+// Pages
+
+@import "pages/signup-page";
+
+// Components
+@import "cmps/header";
+@import "cmps/contact-list";
+@import "cmps/contact-preview";
+@import "cmps/contact-filter";
+@import "cmps/contact-edit";
+@import "cmps/details";
+@import "cmps/transfer-funds";
+@import "cmps/moves-list";
+
+.main-app {
+    min-height: 100vh;
+    > .Header {
+        
+        background-color: #e91e63;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
+    > .Footer {
+        background-color: #1f1f1f;
+        color: white;
+    }
+}

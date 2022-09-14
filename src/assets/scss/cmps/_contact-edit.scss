@@ -1,0 +1,46 @@
+.contact-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .navigation {
+        width: 260px;
+
+        button {
+            padding: 7px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+            &:hover {
+                background-color: rgb(235, 235, 235);
+            }
+        }
+    }
+
+
+    img {
+        height: 100px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin: 10px 0;
+        }
+
+        input {
+            width: 250px;
+            padding: 7px;
+        }
+
+        button {
+            width: 50%;
+            margin-top: 40px;
+            align-self: center;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.main-preview {
+    cursor: pointer;
+    &:hover .remove {
+        opacity: 1;
+    }
+
+    .contact-preview {
+        background-color: #e91e6271;
+        text-align: center;
+        box-shadow: 3px 4px 15px #00000026;
+        border-radius: 30px;
+        background-repeat: no-repeat;
+        background-size: 20%;
+        background-position: bottom left;
+        padding: 12px;
+        overflow-y: hidden;
+        min-width: 100%;
+    }
+
+    .remove {
+        background-color: #757575d1;
+        padding: 10px;
+        border-radius: 50%;
+        opacity: 0;
+        transition: transform 0.3s;
+    }
+}

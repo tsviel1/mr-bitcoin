@@ -1,0 +1,14 @@
+.MovesList {
+    background-color: lightcoral;
+    padding: 7px;
+    border-radius: 5px;
+    .title {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    &.center {
+        max-width: 350px;
+        margin: auto;
+        background-color: rgb(67, 218, 229);
+    }
+}
