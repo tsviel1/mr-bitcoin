@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mr-bitcoin/static/css/main.e52db13c.css",
+    "main.js": "/mr-bitcoin/static/js/main.890cbcc3.js",
+    "static/js/787.04892218.chunk.js": "/mr-bitcoin/static/js/787.04892218.chunk.js",
+    "static/media/bitcoin.png": "/mr-bitcoin/static/media/bitcoin.e5d84ddac06aa7d93845.png",
+    "index.html": "/mr-bitcoin/index.html",
+    "main.e52db13c.css.map": "/mr-bitcoin/static/css/main.e52db13c.css.map",
+    "main.890cbcc3.js.map": "/mr-bitcoin/static/js/main.890cbcc3.js.map",
+    "787.04892218.chunk.js.map": "/mr-bitcoin/static/js/787.04892218.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e52db13c.css",
+    "static/js/main.890cbcc3.js"
+  ]
+}
